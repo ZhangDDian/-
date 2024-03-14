@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01</title>
+    <style>
+    /* id选择器的格式 #id名称{} */
+    /* id保证全局唯一 */
+    /* class选择器 .{} */
+    /* 标签选择器 标签{} */
+    /* 不遵循就近 id选择器＞class选择器＞标签选择器 */
+        #qie{
+             color: blue;
+        }
+        .feie{
+            color: brown;
+        }
+        h1{
+            color: blueviolet;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+<h1 id="qie">penguin</h1>
+<h1 class="feie">penguin</h1>
+<h1 class="feie">penguin</h1>
+<h1>penguin</h1>
+<h1>penguin</h1>
+<p class="dd">s<p>
+
+</body>
+</html>
